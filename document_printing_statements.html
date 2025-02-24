@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Printing Statements.</title>
+</head>
+
+<body>
+    <h1>Document Printing Statements.</h1>
+    <p id="demo">Hello World!!</p> <!--Here, even though if we have "Hello World!!", it will not be displayed, because we have used ".innerHTML=".-->
+    <script>
+        //The documnet.write(), just displays the meassage inside parenthesis in the web-page.
+        document.write("Hello, this statement is printed using 'document.write()'.");
+        //The document.getElementById(), is basically used when we are intended to use the HTML tags inside JavaScript.
+        //But here, for using we can define any tag and add the "id" to it,so by using ".innerHTML=" ,we can achieve the above mentioned.
+        //Here, if we just write 'document.getElementById("specify_the_id_name")', then the data which is present in the tag will be displayed.
+        //If '.innerHTML=' is used ,even though if there is a data in the pre-defined 'id'-tag, it will not be printed,printing the data inside HTML tag is carried out.
+        document.getElementById("demo").innerHTML = "<h1>This satement is printed using 'document.getElementById()'.</h1>"
+    </script>
+</body>
+
+</html>

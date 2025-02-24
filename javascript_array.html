@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping Programme.</title>
+</head>
+
+<body>
+    <h1>Looping concept on an array with applying CSS properties.</h1>
+    <p id="demo"></p>
+    <script>
+        const frameworks = ["React", "Chart", "Express", "Angular", "Next", "Nest"];
+
+        //Defining the font_styles, colors, and font_size.
+        let font_styles = ["Arial", "Monaco", "Pacifico", "Impact", "Jokerman", "Tahoma"];
+        let colors = ["blue", "pink", "green", "red", "black", "purple"];
+        let font_size = ["80px", "80px", "80px", "80px", "80px", "80px"];
+
+        let output = document.getElementById("demo");
+
+        let frameworks_length = frameworks.length;
+        for (let i = 0; i < frameworks_length; i++) {
+            output.innerHTML += `<h3 style="font-family:${font_styles[i]};
+            color:${colors[i]};
+            font-size:${font_size[i]};
+            display: block;
+            margin: 20px 0;">
+            ${frameworks[i]}
+            </h3>`
+        }
+    </script>
+
+</body>
+
+</html>
