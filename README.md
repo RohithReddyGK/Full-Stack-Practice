@@ -21,8 +21,7 @@ This repository contains my daily practice of Full Stack Development concepts, i
 - HTML, CSS, JavaScript  
 - Git & GitHub  
  
-## 📬 Contact  
-📧 Email: your-email@example.com  
+## 📬 Contact   
 📌 GitHub: [@RohithReddyGK](https://github.com/RohithReddyGK)  
 📌 LinkedIn: [@rohithreddygk](https://linkedin.com/in/rohithreddygk)  
 
