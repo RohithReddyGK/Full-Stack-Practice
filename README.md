@@ -24,16 +24,16 @@ This repository contains my daily practice of Full Stack Development concepts, i
 ## 📸 Screenshots
 
 ### Operations on Arrays.
-<img src="https://github.com/user-attachments/assets/842bbc1d-944f-4638-a807-8b1299413aa2" alt="Operations on Arrays" width="600" height="450"/>
+<img src="https://github.com/user-attachments/assets/842bbc1d-944f-4638-a807-8b1299413aa2" alt="Operations on Arrays" width="700" height="450"/>
 
 ### Document Output.
-<img src="https://github.com/user-attachments/assets/b837162f-74fd-4005-9961-f95d918c221c" alt="Document Output" width="600" height="450"/>
+<img src="https://github.com/user-attachments/assets/b837162f-74fd-4005-9961-f95d918c221c" alt="Document Output" width="700" height="450"/>
 
 ### Alert and Console.
-<img src="https://github.com/user-attachments/assets/cd085608-bd7f-4bfc-8312-20cbad0e9ca8" alt="Alert and Console" width="600" height="450"/>
+<img src="https://github.com/user-attachments/assets/cd085608-bd7f-4bfc-8312-20cbad0e9ca8" alt="Alert and Console" width="700" height="450"/>
 
 ### Stylings inside JavaScript.
-<img src="https://github.com/user-attachments/assets/bb57c82f-3dea-49a0-9f32-b9a36cc3030d" alt="Stylings inside JavaScript" width="600" height="450"/>
+<img src="https://github.com/user-attachments/assets/bb57c82f-3dea-49a0-9f32-b9a36cc3030d" alt="Stylings inside JavaScript" width="700" height="450"/>
 
 
  
