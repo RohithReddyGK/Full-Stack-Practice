@@ -24,7 +24,7 @@ This repository contains my daily practice of Full Stack Development concepts, i
 ## 📸 Screenshots
 
 ### Operations on Arrays.
-<img src="https://github.com/user-attachments/assets/842bbc1d-944f-4638-a807-8b1299413aa2" alt="Operations on Arrays" width="550" height="450"/>
+<img src="https://github.com/user-attachments/assets/842bbc1d-944f-4638-a807-8b1299413aa2" alt="Operations on Arrays" width="500" height="450"/>
 
 ### Document Output.
 <img src="https://github.com/user-attachments/assets/b837162f-74fd-4005-9961-f95d918c221c" alt="Document Output" width="700" height="450"/>
