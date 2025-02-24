@@ -20,6 +20,13 @@ This repository contains my daily practice of Full Stack Development concepts, i
 ## 🛠️ Technologies Used  
 - HTML, CSS, JavaScript  
 - Git & GitHub  
+
+ ## Screenshots
+ ![Operations on Arrays](https://github.com/user-attachments/assets/842bbc1d-944f-4638-a807-8b1299413aa2)
+ ![Document Output](https://github.com/user-attachments/assets/b837162f-74fd-4005-9961-f95d918c221c)
+ ![Alert and Console](https://github.com/user-attachments/assets/cd085608-bd7f-4bfc-8312-20cbad0e9ca8)
+ ![Stylings inside JavaScript](https://github.com/user-attachments/assets/bb57c82f-3dea-49a0-9f32-b9a36cc3030d)
+
  
 ## 📬 Contact   
 📌 GitHub: [@RohithReddyGK](https://github.com/RohithReddyGK)  
