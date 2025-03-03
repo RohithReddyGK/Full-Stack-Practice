@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Operations.</title>
+</head>
+
+<body>
+    <h1>!!Different String Operations!!</h1>
+    <script>
+        document.write("<h3>" + "1.charAt()" + "</h3>");
+        let text = "Welcome";
+        let text_charAt = text.charAt(3);
+        document.write("<h3>" + text_charAt + "</h3>");
+
+        document.write("<h3>" + "2.charCodeAt()" + "</h3>");
+        let text1 = "Welcome";
+        let text1_charCodeAt = text1.charCodeAt(3);
+        document.write("<h3>" + text1_charCodeAt + "</h3>");
+
+        document.write("<h3>" + "3.at()" + "</h3>");
+        let text2 = "Welcome";
+        let text2_at = text.at(2);
+        let text2_at1 = text.at(-2);
+        document.write("<h3>" + text2_at + "</h3>");
+        document.write("<h3>" + text2_at1 + "</h3>");
+
+        document.write("<h3>" + "4.[]" + "</h3>");
+        let text3 = "Welcome";
+        let text3_property = text3[4];
+        document.write("<h3>" + text3_property + "</h3>");
+
+        document.write("<h3>" + "4.substring()" + "</h3>");
+        let text4 = "Welcome to JavaScript";
+        let text4_substring = text4.substring(11, 21);
+        document.write("<h3>" + text4_substring + "</h3>");
+
+        document.write("<h3>" + "5.slice()" + "</h3>");
+        let text5 = "Welcome to JavaScript";
+        let text5_slice = text5.slice(-10, -2);
+        document.write("<h3>" + text5_slice + "</h3>");
+
+        document.write("<h3>" + "6.substr()" + "</h3>");
+        let text6 = "Welcome to JavaScript";
+        let text6_substr = text6.substr(5, 15);
+        document.write("<h3>" + text6_substr + "</h3>");
+
+        document.write("<h3>" + "7.toUpperCase()" + "</h3>");
+        let text7 = "welcome";
+        let text7_toUpperCase = text7.toUpperCase();
+        document.write("<h3>" + text7_toUpperCase + "</h3>");
+
+        document.write("<h3>" + "8.toLowerCase()" + "</h3>");
+        let text8 = "WELCOME";
+        let text8_toLowerCase = text8.toLowerCase();
+        document.write("<h3>" + text8_toLowerCase + "</h3>");
+    </script>
+</body>
+
+</html>

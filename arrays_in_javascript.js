@@ -13,7 +13,8 @@ console.log(cars_first_element); //Tata
 
 //Accessing the last element from an array.
 const degrees=["UG","PG","PhD"];
-//let degrees_last_element=[[degrees.length]-1];
+let degrees_last_element=[[degrees.length]-1];
+console.log(degrees_last_element);
 let degrees_length=degrees.length;
 let last_element=degrees_length-1;
 console.log(last_element); //2
@@ -102,6 +103,7 @@ console.log(fruitsa_indexOf); //1
 const fruitsb = ["Apple", "Banana", "Mango", "Kiwi", "Grapes", "Mango"];
 let fruitsb_lastIndexOf = fruitsb.lastIndexOf("Mango");
 console.log(fruitsb_lastIndexOf); //5
+console.log(fruitsb_lastIndexOf+1); //6
 console.log(fruitsb.indexOf("Mango")); //2
 
 //There is no any 'firstIndexOf()' built-in method in JavaScript.

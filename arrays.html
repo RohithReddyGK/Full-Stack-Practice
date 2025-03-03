@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations.</title>
+</head>
+
+<body>
+    <h1>!!Different Array Operations!!</h1>
+    <script>
+        document.write("<h3>" + "1.length." + "</h3>");
+        const fruits = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits_length = fruits.length;
+        document.write("<h3>" + fruits_length + "</h3>");
+
+        document.write("<h3>" + "2.Accessing First Element from an Array." + "</h3>");
+        const fruits1 = ["Apple", "Banan", "Mango", "Kiwi"];
+        let fruits1_first_element = fruits1[0];
+        document.write("<h3>" + fruits1_first_element + "</h3>");
+
+        document.write("<h3>" + "3.Accessing Last Element from an Array." + "</h3>");
+        const fruits2 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits2_length = fruits2.length;
+        let fruits2_last_element1 = [[fruits2_length] - 1];
+        let fruits2_last_element2 = fruits2[3];
+        document.write("<h3>" + fruits2_last_element1 + "</h3>");
+        document.write("<h3>" + fruits2_last_element2 + "</h3>");
+
+        document.write("<h3>" + "4.For Loop." + "</h3>");
+        let fruits3 = ["Apple", "Banana", "Mango", "Kiwi"];
+        for (let i = 0; i < fruits3.length; i++) {
+            document.write("<h3>" + fruits3[i] + "</h3>");
+        }
+
+        document.write("<h3>" + "5.at()" + "</h3>");
+        let fruits4 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits4_at = fruits4.at(2);
+        document.write("<h3>" + fruits4_at + "</h3>");
+
+        document.write("<h3>" + "6.join()" + "</h3>");
+        let fruits5 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits5_join = fruits5.join("--");
+        document.write("<h3>" + fruits5_join + "</h3>");
+
+        document.write("<h3>" + "7.push()" + "</h3>");
+        let fruits6 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits6_push = fruits6.push("Grapes");
+        document.write("<h3>" + fruits6_push + "</h3>");
+        document.write("<h3>" + fruits6 + "</h3>");
+
+        document.write("<h3>" + "8.pop()" + "</h3>");
+        let fruits7 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits7_pop = fruits7.pop();
+        document.write("<h3>" + fruits7_pop + "</h3>");
+
+        document.write("<h3>" + "9.shift()" + "</h3>");
+        let fruits8 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits8_shift = fruits8.shift();
+        document.write("<h3>" + fruits8_shift + "</h3>");
+        document.write("<h3>" + fruits8 + "</h3>");
+
+        document.write("<h3>" + "10.unshift()" + "</h3>");
+        let fruits9 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits9_unshift = fruits9.unshift("Grapes");
+        document.write("<h3>" + fruits9_unshift + "</h3>");
+        document.write("<h3>" + fruits9 + "</h3>");
+
+        document.write("<h3>" + "11.delete()" + "</h3>");
+        let fruits10 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits10_delete = delete fruits[3];
+        document.write("<h3>" + fruits10_delete + "</h3>");
+        document.write("<h3>" + fruits10 + "</h3>");
+
+        document.write("<h3>" + "12.concat()" + "</h3>");
+        let fruits11a = ["Apple", "Mango", "Banana", "Kiwi"];
+        let fruits11b = ["Grapes", "Dragon Fruit", "Orange", "Muskmelon"];
+        let fruitsc = fruits11a.concat(fruits11b);
+        document.write("<h3>" + fruitsc + "</h3>");
+
+        document.write("<h3>" + "13.copyWithin()" + "</h3>");
+        let fruits12 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits12_copyWithin = fruits12.copyWithin(2, 0);
+        document.write("<h3>" + fruits12_copyWithin + "</h3>");
+
+        document.write("<h3>" + "14.splice()" + "</h3>");
+        let fruits13 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits13_splice = fruits13.splice(2, 2, "Orange");
+        document.write("<h3>" + fruits13_splice + "</h3>");
+        document.write("<h3>" + fruits13 + "</h3>");
+
+        document.write("<h3>" + "15.slice()" + "</h3>");
+        let fruits14 = ["Apple", "Banana", "Mango", "Orange"];
+        let fruits14_slice = fruits14.slice(0, 2);
+        document.write("<h3>" + fruits14_slice + "</h3>");
+
+        document.write("<h3>" + "16.indexOf()" + "</h3>");
+        let fruits15 = ["Apple", "Banana", "Mango", "Orange", "Mango"];
+        let fruits15_indexOf = fruits15.indexOf("Mango");
+        document.write("<h3>" + fruits15_indexOf + "</h3>");
+
+        document.write("<h3>" + "17.lastIndexOf()" + "</h3>");
+        let fruits16 = ["Apple", "Banana", "Mango", "Kiwi", "Mango"];
+        let fruits16_lastIndexOf = fruits16.lastIndexOf("Mango");
+        document.write("<h3>" + fruits16_lastIndexOf + "</h3>");
+
+        document.write("<h3>" + "18.includes()" + "</h3>");
+        let fruits17 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits17_includes = fruits17.includes("Mango");
+        let fruits17_includes1 = fruits17.includes("Grapes");
+        document.write("<h3>" + fruits17_includes + "</h3>");
+        document.write("<h3>" + fruits17_includes1 + "</h3>");
+
+        document.write("<h3>" + "19.sort() & localeCompare()" + "</h3>");
+        let fruits18 = ["Apple", "Banana", "Mango", "Kiwi"];
+        let fruits18_sort = [...fruits18].sort();
+        document.write("<h3>" + fruits18_sort + "</h3>");
+        let fruits18_sort_ASC = [...fruits18].sort((a, b) => a.localeCompare(b));
+        let fruits18_sort_DSC = [...fruits18].sort((a, b) => b.localeCompare(a));
+        document.write("<h3>" + fruits18_sort_ASC + "</h3>");
+        document.write("<h3>" + fruits18_sort_DSC + "</h3>");
+
+        document.write("<h3>" + "20.sort()" + "</h3>");
+        let numbers = [100, 1, 200, 500, 3, 0, 4, 6];
+        let numbers_sort = [...numbers].sort();
+        document.write("<h3>" + numbers_sort + "</h3>");
+        let numbers_sort_ASC = [...numbers].sort((a, b) => a - b);
+        let numbers_sort_DSC = [...numbers].sort((a, b) => b - a);
+        document.write("<h3>" + numbers_sort_ASC + "</h3>");
+        document.write("<h3>" + numbers_sort_DSC + "</h3>");
+    </script>
+</body>
+
+</html>
