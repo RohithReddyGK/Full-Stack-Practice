@@ -65,24 +65,24 @@ console.log(string5_toLowerCase); //welcome
 let stringa="Hello";
 let stringb=" World";
 let string_concat=stringa.concat(stringb);
-console.log(string_concat);
+console.log(string_concat); //Hello World
 
 //(2) trim()
 let stringc="  Hello  ";
 let stringc_trim=stringc.trim();
-console.log(stringc_trim);
+console.log(stringc_trim); //Hello
 
 //(3) repeat()
 let stringd="Hello";
 let stringd_repeat=stringd.repeat(5);
-console.log(stringd_repeat);
+console.log(stringd_repeat); //HelloHelloHelloHelloHello
 
 //(v) Replacing String Content.
 
 //(1) replace()
 let stringi="Hello";
 let stringi_replace=stringi.replace("Hello","Good Morning!!");
-console.log(stringi_replace);
+console.log(stringi_replace); //Good Morning!!
 
 //(2) split()
 let stringiii="Hello, Good Morning!!";
@@ -93,29 +93,29 @@ const array3=stringiii.split("");
 // {
 //     console.log(array[i]);
 // }
-console.log(array1); //[ 'Hello' ]
-console.log(array2); //
-console.log(array3); //
+console.log(array1); //[ 'Hello, Good Morning!!' ]
+console.log(array2); //[ 'Hello,', 'Good', 'Morning!!' ]
+console.log(array3); //[ 'H', 'e', 'l', 'l', 'o',',', ' ', 'G', 'o', 'o','d', ' ', 'M', 'o', 'r','n', 'i', 'n', 'g', '!','!']
 
 //(vi) String Searching Methods.
 
 //(1)indexOf()
 let stringiv="Welcome to JS class";
 let stringiv_indexOf=stringiv.indexOf("JS");
-console.log(stringiv_indexOf);
+console.log(stringiv_indexOf); //11
 
 //(2) startsWith() & endsWith()
 let stringv="Welcome to JS class";
 let stringv_startsWith=stringv.startsWith("Welcome");
 let stringv_endsWith=stringv.endsWith("Hello");
-console.log(stringv_startsWith);
-console.log(stringv_endsWith);
+console.log(stringv_startsWith); //true
+console.log(stringv_endsWith); //false
 
 //(3) includes()
 let stringvi="Welcome to JS class";
 let stringvi_includes1=stringvi.includes("JavaScript");
 let stringvi_includes2=stringvi.includes("JS");
-console.log(stringvi_includes1);
-console.log(stringvi_includes2);
+console.log(stringvi_includes1); //false
+console.log(stringvi_includes2); //true
 
 
