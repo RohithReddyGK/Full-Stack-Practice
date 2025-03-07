@@ -1,0 +1,30 @@
+<!--Functions Concept-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions.</title>
+</head>
+
+<body>
+    <h1>Functions Concept.</h1>
+    <p id="demo"></p>
+    <script>
+        function addition(a, b) {
+            let sum = a + b;
+            document.write("<h1>" + sum + "</h1>"); //Using document.write()
+        }
+        addition(10, 20);
+
+        function add(c,d)
+        {
+            return (c+d);
+        }
+        let x=add(100,200);
+        document.getElementById("demo").innerHTML="<h1>"+x+"</h1>"; //Using document.getElementById()
+    </script>
+</body>
+
+</html>
