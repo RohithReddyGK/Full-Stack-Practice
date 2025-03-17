@@ -1,3 +1,7 @@
+//Create an object student with properties: name (string), grade (number), subjects (array), displayInfo() (method to log the student's details).
+// Write a script to dynamically add a passed property to the student object, with a value of true or false based on their grade. 
+// Create a loop to log all keys and values of the student object. 
+
 const student={
     name:"John Doe",
     grade:40,

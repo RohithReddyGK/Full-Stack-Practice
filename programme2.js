@@ -1,3 +1,7 @@
+// Read a string from the user,  Find its length. Extract the word "JavaScript" using substring() or slice(). 
+// Replace one word with another word and log the new string. Write a function isPalindrome(str),
+// that checks if a given string is a palindrome (reads the same backward).
+
 const readline=require("readline");
 
 const rl=readline.createInterface({
