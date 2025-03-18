@@ -89,6 +89,16 @@ class Personf {
 const stud1 = new Personf("Ram", "Kumar", 25);
 const stud2 = new Personf("Rahul", "Kumar", 27);
 const stud3 = new Personf("Praveen", "Kumar", 30);
-console.log("The details of students are:", stud1, stud2, stud3); 
+console.log("The details of students are:", stud1, stud2, stud3);
 //The details of students are: Personf { fname: 'Ram', lname: 'Kumar', age: 25 } Personf { fname: 'Rahul', lname: 'Kumar', age: 27 } Personf { fname: 'Praveen', lname: 'Kumar', age: 30 }
 
+//OR The above object-constructor can also be created like this.
+function Persong(fname, lname) {
+    this.fname = fname;
+    this.lname = lname;
+}
+const concept4 = new Persong("OOPS", "Java");
+const concept5 = new Persong("OOPS", "Advanced Java");
+const concept6 = new Persong("FSD", "HTML,CSS,JAVASCRIPT");
+console.log("The details of concepts are:", concept4, concept5, concept6);
+//The details of concepts are: Persong { fname: 'OOPS', lname: 'Java' } Persong { fname: 'OOPS', lname: 'Advanced Java' } Persong { fname: 'FSD', lname: 'HTML,CSS,JAVASCRIPT' }
