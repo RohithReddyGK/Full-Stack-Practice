@@ -4,7 +4,7 @@
 
 const student={
     name:"John Doe",
-    grade:40,
+    grade:100,  //Replace with a value less than 50 to get 'false'. Like:40.
     subjects:["Kannada","Maths","Science"],
     displayInfo:function(){
         console.log(`Name: ${this.name}`);
@@ -24,3 +24,13 @@ for(let key in student)
     }
     //console.log(`${key}:${student[key]}`);
 }
+
+// Output:
+// Name: John Doe
+// Grade: 100
+// Subjects: Kannada,Maths,Science
+// name:John Doe
+// grade:100
+// subjects:Kannada,Maths,Science
+// passed:true
+

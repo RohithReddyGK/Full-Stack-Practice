@@ -39,4 +39,23 @@ rl.question("Enter the string:",(inputString)=>{
     rl.close();
 });
 
+//Output(1): No 'JavaScript' word.
+// Enter the string:Welcome
+// The length of the input string is:7
+// Word 'JavaScript' not found in the string.
+// New string after replacement:Welcome
+// Is the string palindrome? false
 
+//Output(2): Not palindrome.
+// Enter the string:I like JavaScript
+// The length of the input string is:17
+// Extracted word is:JavaScript
+// New string after replacement:I like JavaScript lab programme.
+// Is the string palindrome? false
+
+//Output(3): Palindrome.
+// Enter the string:racecar
+// The length of the input string is:7
+// Word 'JavaScript' not found in the string.
+// New string after replacement:racecar
+// Is the string palindrome? true

@@ -12,3 +12,9 @@ console.log("The array after removing the first city: " + cities);
 
 let cities_indexOf = cities.indexOf("Udupi");
 console.log("The index of city 'Udupi' is: " + cities_indexOf);
+
+//Output:
+// The total number of cities: 5
+// The array after pushing an element: Bengaluru,Mysuru,Chikkaballapura,Tumkur,Udupi,Belagavi
+// The array after removing the first city: Mysuru,Chikkaballapura,Tumkur,Udupi,Belagavi
+// The index of city 'Udupi' is: 3
