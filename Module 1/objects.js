@@ -61,4 +61,34 @@ const personb = {
 let personb_access = personb.fullname(); //If we write just fullname, without parenthesis we get, "[Function: fullname]".
 console.log(personb_access); //Rahul Kumar age is:25
 
+//Displaying JvaScript Objects.
+
+//(1) By using object name.
+const personc = { name: "Ram", age: 25, city: "Bengaluru" };
+console.log(personc.name + " " + personc.age + " " + personc.city); //Ram 25 Bengaluru
+
+//(2) By using 'for in loop'.
+const persond = { name: "Ram", age: 25, city: "Bengaluru" };
+for (let x in persond) {
+    console.log(persond[x]); //Ram 25 Bengaluru (Here, each property is displayed in new line (or) separate line).
+}
+
+//(3) By using 'object.values()'.
+const persone = { name: "Ram", age: 25, city: "Bengaluru" };
+const myAry = Object.values(persone);
+console.log(myAry); //[ 'Ram', 25, 'Bengaluru' ]
+
+//JavaScript object-constructor.
+class Personf {
+    constructor(fname, lname, age) {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+    }
+};
+const stud1 = new Personf("Ram", "Kumar", 25);
+const stud2 = new Personf("Rahul", "Kumar", 27);
+const stud3 = new Personf("Praveen", "Kumar", 30);
+console.log("The details of students are:", stud1, stud2, stud3); 
+//The details of students are: Personf { fname: 'Ram', lname: 'Kumar', age: 25 } Personf { fname: 'Rahul', lname: 'Kumar', age: 27 } Personf { fname: 'Praveen', lname: 'Kumar', age: 30 }
 
