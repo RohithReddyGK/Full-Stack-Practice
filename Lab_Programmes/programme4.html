@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling Concept</title>
+    <style>
+        .container{
+            height:100vh;
+            display:flex;
+            align-items:center;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        img {
+            width: 500px;
+            height: 300px;
+            border: 5px solid blue;
+            transition: border 0.3s ease;
+        }
+
+        button {
+            padding: 15px 20px;
+            background-color: aquamarine;
+            color: #000;
+            text-decoration: underline;
+            font-size:large;
+            border-radius: 5px;
+            position: center;
+            cursor: pointer;
+        }
+
+        button:hover{
+            border-color:blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="myButton">Click Me</button>
+        <img id="myImage"
+            src="https://media.licdn.com/dms/image/v2/D5612AQFA87_WBhXUlg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1710942285800?e=2147483647&v=beta&t=kAikDJ7A5iz38Hgvsiy59wORubLPrdlHh2GAPs9Cz5E"
+            alt="Sample Image">
+    </div>
+
+    <script>
+        const button = document.getElementById("myButton");
+        button.addEventListener("click", function () {
+            window.alert("Button Clicked!!");
+        });
+
+        const image = document.getElementById("myImage");
+        image.addEventListener("mouseover", function () {
+            image.style.border = "5px solid yellow";
+        });
+
+        image.addEventListener("mouseout", function () {
+            image.style.border = "none";
+        });
+
+        document.addEventListener("keydown", function (event) {
+            window.alert("Key Pressed: " + event.key);
+        });
+    </script>
+</body>
+
+</html>
