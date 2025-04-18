@@ -1,3 +1,7 @@
+<!-- Create a button in your HTML with the text "Click Me". Add an event listener to log "Button Clicked!!" 
+ to the console when the button is clicked. Select an image and add a mouseover event listener to
+ change its border color. Add an event listener to the document that logs the key pressed by the user. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Handling Concept</title>
     <style>
-        .container{
-            height:100vh;
-            display:flex;
-            align-items:center;
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
             flex-direction: row;
             justify-content: center;
             gap: 20px;
@@ -27,14 +31,14 @@
             background-color: aquamarine;
             color: #000;
             text-decoration: underline;
-            font-size:large;
+            font-size: large;
             border-radius: 5px;
             position: center;
             cursor: pointer;
         }
 
-        button:hover{
-            border-color:blue;
+        button:hover {
+            border-color: blue;
         }
     </style>
 </head>
@@ -51,6 +55,7 @@
         const button = document.getElementById("myButton");
         button.addEventListener("click", function () {
             window.alert("Button Clicked!!");
+            // console.log("Button Clicked!!");
         });
 
         const image = document.getElementById("myImage");
