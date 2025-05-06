@@ -3,20 +3,20 @@
   text-align: center;
   /* margin: 20px; */
   padding:5px 50px 100px 270px;
-  }
+}
 
-  h1 {
+h1 {
   color: #333;
-  }
+}
 
-  .issue-list {
+.issue-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   width:1000px;
-  }
+}
 
-  .issue {
+.issue {
   background-color: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -25,27 +25,26 @@
   width: 80%;
   max-width: 600px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  }
-
-  .issue h3 {
+.issue h3 {
   margin: 0 0 10px;
   font-size: 1.5em;
-  }
+}
 
-  .issue p {
+.issue p {
   margin: 0 0 10px;
   color: #555;
-  }
+}
 
-  .status {
+.status {
   font-weight: bold;
-  }
+}
   
-  .status.open {
+.status.open {
   color: #e74c3c;
-  }
+}
 
-  .status.closed {
+.status.closed {
   color: #2ecc71;
-  }
+}
